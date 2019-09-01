@@ -708,7 +708,7 @@ nav{
 .partFive{
     position: static;
     display: block;
-    height: 130px;
+    height: 175px;
     width: 100%;
     background: var(--gray);
     z-index: -2;
@@ -887,7 +887,8 @@ footer{
 }
 #googlePlay{
     top: 25%;
-
+    margin-bottom: 0;
+    
 } 
 #appleStore{
     top: 25%;
@@ -897,7 +898,80 @@ footer{
 .section-two > p{
     display: inline-block;
     }
+    
+    
+    
+.partFive{
+        position: static;
+        height: 250px;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+.partFive-top{
+    display: block;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 
+}
+.partFive-top .section-one{
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    margin-right: 150px;
+
+    padding: 0px;
+    width: 30%;
+}
+    .partFive-top .section-two{
+        width: 30%;
+        float: right;
+        margin: 0;
+    }
+.section-one h1{
+    margin: 0;
+    color: var(--light);
+    font-size: 30px;
+}
+#space{
+    font-size: 60px;
+}
+.partFive-top .section-two{
+    display: inline-block;
+    width: 30%;
+    color: var(--light);
+    margin: 0 10px;
+    padding: 0;
+}
+.section-two h6{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.partFive-top h2{
+    color: var(--light);
+    margin-left: 5%;
+    font-size: 14px;
+}
+.partFive-top  p{
+    color: var(--light);
+    margin-left: 5%;
+    font-size: 14px;
+}
+.partFive-top  h6{
+    color: var(--light);
+    margin-left: 5%;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.partFive-top p{
+    margin: 0;
+    padding: 0px 5px;
+}
+    
 }
 
 
@@ -1059,7 +1133,9 @@ footer{
     font-size: 24px;
     margin-left: 84px;
 }
-
+    #contact{
+        margin-left: 50px;
+    }
     
     
 }
